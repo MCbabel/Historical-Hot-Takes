@@ -23,6 +23,10 @@ This application has two modes:
     *   Then, it feeds that response to the AI to generate a witty rebuttal from the second figure.
     *   The full debate is then displayed.
 
+## Preview
+
+![Application Preview](gif/preview.png)
+
 ## Tech Stack
 
 This project is built with a focus on simplicity and performance, using:
@@ -43,4 +47,5 @@ The application makes a direct call to the AI ML API using the `fetch` API.
     Open the `script.js` file and replace the placeholder text `'YOUR_AI_ML_API_KEY_HERE'` with your actual AI ML API key.
 3.  **Open in Browser:**
     Simply open the `index.html` file in your web browser. No build step or local server is required.
+
 
