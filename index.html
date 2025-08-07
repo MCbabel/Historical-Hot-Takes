@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Hot Takes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="theme-switcher">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <h1>Historical Hot Takes 🔥</h1>
+            <form id="hot-take-form">
+                <div class="form-control">
+                    <label for="figure-select-1">Choose historical figure #1:</label>
+                    <select id="figure-select-1" name="figure1"></select>
+                </div>
+                <div class="form-control">
+                    <label for="figure-select-2">Choose historical figure #2 (for a debate):</label>
+                    <select id="figure-select-2" name="figure2">
+                        <option value="">-- None --</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="topic-input">Enter a modern topic:</label>
+                    <input type="text" id="topic-input" name="topic" placeholder="e.g., 'Netflix' or 'Cryptocurrency'">
+                </div>
+                <button type="submit" id="generate-btn">Generate Hot Take</button>
+            </form>
+            <div id="result-container" class="hidden">
+                <p id="result-text"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
