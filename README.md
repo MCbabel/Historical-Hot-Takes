@@ -37,9 +37,10 @@ The application makes a direct call to the AI ML API using the `fetch` API.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_REPO_URL>
+    git clone https://github.com/MCbabel/Historical-Hot-Takes
     ```
 2.  **Add your API Key:**
     Open the `script.js` file and replace the placeholder text `'YOUR_AI_ML_API_KEY_HERE'` with your actual AI ML API key.
 3.  **Open in Browser:**
     Simply open the `index.html` file in your web browser. No build step or local server is required.
+
