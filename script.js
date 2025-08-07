@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Reusable AI call function
     async function getAiResponse(systemPrompt, userContent) {
-        const apiKey = 'your_key'; // Your API Key
+        const apiKey = 'YOUR_AI_ML_API_KEY_HERE'; // Your API Key
         const apiUrl = 'https://api.aimlapi.com/v1/chat/completions';
 
         const response = await fetch(apiUrl, {
@@ -115,4 +115,5 @@ document.addEventListener('DOMContentLoaded', () => {
         generateBtn.disabled = false;
         generateBtn.textContent = 'Generate';
     });
+
 });
